@@ -1,0 +1,47 @@
+.header{
+    margin: 0 10%;
+    display: block;
+}
+.header-icon{
+    height: 80px;
+    display: inline-block;
+}
+.header-title-left{
+    display: inline-block;
+}
+.title-top{
+    font-size: 40px;
+    font-weight: 900;
+}
+.title-bottom{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header-title-right{
+    display: inline-block;    
+    margin-left: 35%;
+}
+.title-right-top{
+    font-size: 15px;
+    font-weight: 900;
+    color:gray;
+}
+.title-right-bottom{
+    font-size: 25px;
+    font-weight: 900;
+    color:gray;
+}
+.button {
+    background-color: #555555; /* Green */
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left:10px;
+  }
