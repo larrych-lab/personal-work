@@ -1,67 +1,62 @@
+/*** Header ***/
 .header{
-    margin: 0 10%;
-    display: block;
+    margin:0 10%;
+    display:block;
 }
 .header-icon{
-    height: 80px;
-    display: inline-block;
+    height:80px;
+    display:inline-block;
 }
 .header-title-left{
-    display: inline-block;
+    display:inline-block;
 }
-.title-top{
-    font-size: 40px;
-    font-weight: 900;
-}
-.title-bottom{
-    font-size: 20px;
-    font-weight: 400;
-}
-
 .header-title-right{
-    display: inline-block;    
-    margin-left: 35%;
+    display:inline-block;    
+    margin-left:35%;
+}
+.title-left-top{
+    font-size:40px;
+    font-weight:900;
+}
+.title-left-bottom{
+    font-size:20px;
+    font-weight:400;
 }
 .title-right-top{
-    font-size: 15px;
-    font-weight: 900;
-    color:gray;
+    font-size:15px;
+    font-weight:900;
 }
 .title-right-bottom{
-    font-size: 25px;
-    font-weight: 900;
-    color:gray;
+    font-size:25px;
+    font-weight:900;
 }
-.button {
-    background-color: #555555;
-    border-radius: 4px;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
+.btn{
+    background-color:#555555;
+    border-radius:4px;
+    border:none;
+    color:#FFFFFF;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+    cursor:pointer;
     margin-left:10px;
-  }
-
-.navbar{
-    display: flex;
-    flex: nowrap;
-    background-color: #343a3f;
-    margin-top: 5px;
-    text-align: center;
 }
-.nav{
-    width: 100px;
-    height: 55px;
-    line-height: 75px;
-    padding-bottom: 15px;
-    font-size: 20px;
-    text-align: center;
-    color: silver;
+/*** Navbar ***/
+.nav-container{
+    background-color:#343a3f;
+    display:block;
+    margin-top:10px;
+    padding:15px 20px;
+    height:40px;
+    text-align:center;
 }
-.nav-edge{
-    flex-grow: 2
+.nav-container>a{
+    font-size:25px;
+    padding:18px;
+}
+/*** 共通カラ- ***/
+.color-gray{
+    color:#808080;
 }
