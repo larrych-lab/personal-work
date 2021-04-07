@@ -1,17 +1,11 @@
 /*** Header ***/
 .header{
     margin:0 10%;
-    display:block;
 }
 .header-icon{
     height:80px;
-    display:inline-block;
-}
-.header-title-left{
-    display:inline-block;
 }
 .header-title-right{
-    display:inline-block;    
     margin-left:35%;
 }
 .title-left-top{
@@ -31,10 +25,8 @@
     font-weight:900;
 }
 .btn-title{
-    background-color:#555555;
     border-radius:4px;
     border:none;
-    color:#ffff;
     padding:15px 32px;
     text-align:center;
     text-decoration:none;
@@ -46,17 +38,105 @@
 /*** Navbar ***/
 .nav-container{
     background-color:#343a3f;
-    display:block;
     margin-top:10px;
     padding:15px 20px;
     height:40px;
-    text-align:center;
+    width: 100%;
 }
 .nav-container>a{
     font-size:25px;
     padding:18px;
 }
-/*** 共通カラ- ***/
+/*** Body ***/
+/** Clinical View **/
+.clinical-view{
+    
+}
+.clinical-view>img{
+    width:100%;
+}
+/** Notification  **/
+.notify-date{
+    font-size:14px;
+    border-radius:4px;
+    padding:3px 4px;
+}
+.description{
+    margin:0px 0px 5px 0px;
+    font-size:12px;
+}
+/** Message  **/
+.message{   
+}
+/** Subject **/
+.subject-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.subject{
+    width: 250px;
+    margin-top: 10px;
+    box-shadow: 1px 3px 2px 1px #f8f9fa;
+}
+.sub-image{
+    width: 250px;
+}
+/** Introduction **/
+.introduction{
+}
+/** Gallery **/
+.gallery{
+}
+/** Leader-Info **/
+.leader-info{
+}
+/** Staff-Info **/
+.staff-info{
+}
+/** Schedule **/
+.schedule{
+}
+/** Address-Map **/
+.address-map{
+}
+/** Address-Info **/
+.address-info{
+}
+/*** 共通部分 ***/
+/** Font Color **/
 .color-gray{
     color:#808080;
+}
+.color-white{
+    color:#ffffff;
+}
+/** Background Color **/
+.color-bg-gray{
+    background-color:#808080;
+}
+.color-bg-body{
+    background-color:#f8f9fa
+}
+/** Display **/
+.block{
+    display:block;
+}
+.inline-block{
+    display:inline-block;
+}
+.inline{
+    display:inline;
+}
+/** List **/
+.no-bullets{
+    list-style-type: none;
+}
+/** Margin **/
+.midbody-margin{
+    margin: 0% 20%;
+}
+/** Text Align **/
+.align-center{
+    text-align: center;
 }
